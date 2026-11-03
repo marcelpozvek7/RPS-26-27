@@ -1,7 +1,9 @@
-doma = int(input("Goli za domače : "))
-gostje = int(input("Goli za gostje : "))
+
+doma = 3
+gostje = 1
 
 print(f"Domači:{doma}")
-print(f"Gostje:{gostjen}")
-print(f"Popravljen rezultat: {gostje : doma}" )
-print(gostje+doma)
+print(f"Gostje:{gostje}")
+print(f"Popravljen rezultat: {gostje} : {doma}" )
+skupaj = gostje + doma
+print(f"Skupaj:{skupaj}")
